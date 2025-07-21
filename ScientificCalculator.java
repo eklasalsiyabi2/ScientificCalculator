@@ -122,10 +122,121 @@ public class ScientificCalculator {
         return Math.tan(Math.toRadians(angleDegrees));
     }
 
+    private static void performAddition(Scanner scanner) {
+        try {
+            System.out.println("Enter the first number :");
+            double a = scanner.nextDouble();
+            System.out.println("Enter the second number :");
+            double b = scanner.nextDouble();
+            System.out.println("The Resule" + add(a, b));
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid entry");
+            scanner.next();
+        }
+    }
 
+    private static void performSubtraction(Scanner scanner) {
+        try {
+            System.out.println("Enter the first number :");
+            double a = scanner.nextDouble();
+            System.out.println("Enter the second number :");
+            double b = scanner.nextDouble();
+            System.out.println("The Resule" + add(a, b));
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid entry");
+            scanner.next();
+        }
+    }
 
-        IpReader.close();
+    private static void performMultiplication(Scanner scanner) {
+        try {
+            System.out.println("Enter the first number :");
+            double a = scanner.nextDouble();
+            System.out.println("Enter the second number :");
+            double b = scanner.nextDouble();
+            System.out.println("The Resule" + add(a, b));
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid entry");
+            scanner.next();
+        }
+    }
+
+    private static void performSquareRoot(Scanner scanner) {
+        try {
+            System.out.println("Enter the first number :");
+            double a = scanner.nextDouble();
+            System.out.println("Enter the second number :");
+            double b = scanner.nextDouble();
+            System.out.println("The Resule" + add(a, b));
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid entry");
+            scanner.next();
+        }
+    }
+
+    private static void performPower(Scanner scanner) {
+        try {
+            System.out.println("Enter the first number :");
+            double a = scanner.nextDouble();
+            System.out.println("Enter the second number :");
+            double b = scanner.nextDouble();
+            System.out.println("The Resule" + add(a, b));
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid entry");
+            scanner.next();
+        }
+    }
+
+    private static void performDivision(Scanner scanner) {
+        try {
+            System.out.println("Enter the first number :");
+            double a = scanner.nextDouble();
+            System.out.println("Enter the second number :");
+            double b = scanner.nextDouble();
+            System.out.println("The Resule" + add(a, b));
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid entry");
+            scanner.next();
+        }
+    }
+
+    private static void performSine(Scanner scanner) {
+        try {
+            System.out.println("Enter the first number :");
+            double a = scanner.nextDouble();
+            System.out.println("Enter the second number :");
+            double b = scanner.nextDouble();
+            System.out.println("The Resule" + add(a, b));
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid entry");
+            scanner.next();
+        }
+    }
+
+    private static void performCosine(Scanner scanner) {
+        try {
+            System.out.println("Enter the first number :");
+            double a = scanner.nextDouble();
+            System.out.println("Enter the second number :");
+            double b = scanner.nextDouble();
+            System.out.println("The Resule" + add(a, b));
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid entry");
+            scanner.next();
+        }
+    }
+
+    private static void performTangent(Scanner scanner) {
+        try {
+            System.out.println("Enter the first number :");
+            double a = scanner.nextDouble();
+            System.out.println("Enter the second number :");
+            double b = scanner.nextDouble();
+            System.out.println("The Resule" + add(a, b));
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid entry");
+            scanner.next();
+        }
     }
 }
-
 
